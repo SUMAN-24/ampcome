@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:700,400");
+
+.login_div {
+  border: 1px solid red;
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  background: #ffffff;
+}
+
+.group {
+  border: 1px solid red;
+  position: absolute;
+  width: 775px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+}
+
+.rectangle {
+  border: 1px solid red;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: #f0f4fc;
+}
+
+/* Welcome to App */
+.welcome_to_app {
+  position: absolute;
+  width: 292px;
+  height: 30px;
+  left: 239px;
+  top: 141px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 125%;
+  text-align: center;
+  color: #203765;
+}
+
+/* Get ahead of the curve. Join the next generation of health heroes. */
+.get_ahead_of_the_curve {
+  position: absolute;
+  width: 471px;
+  height: 22px;
+  left: 149px;
+  top: 196px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(32, 55, 101, 0.8);
+}
+
+/* Frame */
+.frame {
+  position: absolute;
+  width: 528px;
+  height: 332px;
+  left: 135px;
+  top: 285px;
+}
