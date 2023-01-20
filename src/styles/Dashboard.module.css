@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:200,100");
 .dashboard_main {
   position: relative;
   width: 1446px;
@@ -48,41 +49,176 @@
 }
 
 .img4 {
-    position: absolute;
-    left: 34.87%;
-    top: 270.61%;
-    bottom: 78.98%;
-  }
+  position: absolute;
+  left: 34.87%;
+  top: 270.61%;
+  bottom: 78.98%;
+}
 
-  .img5 {
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    left: 26px;
-    top: 180px;
-  }
+.img5 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 26px;
+  top: 180px;
+}
 
-  .img6 {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    left: 26px;
-    top: 235px;
-  }
+.img6 {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 26px;
+  top: 235px;
+}
 
-  .img7 {
-    position: absolute;
-    left: 33.87%;
-    top: 630.56%;
-    bottom: 69.01%;  
-    background: #8394B8;
-  }
+.img7 {
+  position: absolute;
+  left: 33.87%;
+  top: 630.56%;
+  bottom: 69.01%;
+  background: #8394b8;
+}
 
-  .img8 {
-    position: absolute;
-    left: 24.38%;
-    top: 1800.23%;
-    bottom: 50.65%;  
-    background: #E4E5E7;
-    border-radius: 100px;
-  }
+.img8 {
+  position: absolute;
+  left: 24.38%;
+  top: 1800.23%;
+  bottom: 50.65%;
+  background: #e4e5e7;
+  border-radius: 100px;
+}
+
+.top_section {
+  position: absolute;
+  left: 4.96%;
+  right: -0.2%;
+  top: 0%;
+  bottom: 87.4%;
+  background: #203765;
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.name_part {
+  position: absolute;
+  width: 369px;
+  height: 46px;
+  left: 90px;
+  top: 40px;
+  display: flex;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 34px;
+  line-height: 135.19%;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.name_part1 {
+  position: absolute;
+  width: 369px;
+  height: 46px;
+  left: 172px;
+
+  display: flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 34px;
+  line-height: 135.19%;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.unit_name {
+  position: absolute;
+  width: 88px;
+  height: 22px;
+  left: 90px;
+  top: 88px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 135.19%;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.earnings {
+  position: absolute;
+  width: 851px;
+  height: 101px;
+  left: 116px;
+  top: 168px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+
+.icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 10px;
+  top: 20px;
+}
+
+.text_earning {
+  position: absolute;
+  width: 95px;
+  height: 19px;
+  left: 40px;
+  top: 3px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 135.19%;
+  color: #29375f;
+}
+
+.text_amount {
+  position: absolute;
+  width: 76px;
+  height: 47px;
+  left: 40px;
+  top: 21px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 197.7%;
+  color: #29375f;
+}
+
+.select_unit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 183px;
+  height: 48px;
+  left: 430px;
+  top: 2px;
+}
+
+.select_time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 183px;
+  height: 48px;
+  left: 630px;
+  top: 2px;
+}

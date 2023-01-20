@@ -88,9 +88,9 @@ const Login = () => {
             onChange={handleChange}
           >
             <option value="select_unit_name">Select Unit Name</option>
-            <option value="unit1">unit1</option>
-            <option value="unit2">unit2</option>
-            <option value="unit3">unit3</option>
+            <option value="cardiology">cardiology</option>
+            <option value="neurology">neurology</option>
+            <option value="osteology">osteology</option>
             <option value="unit4">unit4</option>
             <option value="unit5">unit5</option>
           </Select>
