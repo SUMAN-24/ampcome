@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Inter:600,400,700");
 
 .login_div {
-  /* border: 1px solid red; */
   position: relative;
   width: 1440px;
   height: 900px;
@@ -10,7 +9,6 @@
 }
 
 .group1 {
-  /* border: 1px solid red; */
   position: absolute;
   width: 775px;
   height: 900px;
@@ -123,7 +121,11 @@ select:focus {
 }
 
 input::placeholder {
-  padding-left: 9.52%;
+  position: absolute;
+  left: 9.52%;
+  right: 47.62%;
+  top: 27.27%;
+  bottom: 28.73%;
 }
 
 .inpt2 {
@@ -135,33 +137,12 @@ input::placeholder {
   border-radius: 6px;
 }
 
-.inpt3 {
-  width: 294px;
-  height: 44px;
-  margin-top: 15px;
-  background: #ffffff;
-  border: 1px solid rgba(192, 206, 255, 0.7);
-  border-radius: 6px;
-}
-
-select {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  padding-left: 10%;
-  line-height: 17px;
-  color: #29375f;
-  border: 1px solid #bfd2f3;
-  appearance: none;
-}
-
 span {
   box-sizing: border-box;
   position: absolute;
   left: 89.99%;
   right: 13.86%;
-  top: 57.66%;
+  top: 49.50%;
   bottom: 44.89%;
   background: #f0f4fd;
   pointer-events: none;

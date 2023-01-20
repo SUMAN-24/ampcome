@@ -26,7 +26,6 @@
 .img1 {
   position: absolute;
   left: 30.87%;
-  right: 96.61%;
   top: 25.31%;
   bottom: 85.39%;
   background: #ffffff;
@@ -36,8 +35,8 @@
   position: absolute;
   width: 46px;
   height: 0px;
-  margin-left: 30px;
-  margin-top: -38px;
+  margin-left: 50px;
+  margin-top: -34px;
 }
 
 .img3 {
@@ -51,7 +50,6 @@
 .img4 {
     position: absolute;
     left: 34.87%;
-    right: 96.61%;
     top: 270.61%;
     bottom: 78.98%;
   }
@@ -75,7 +73,6 @@
   .img7 {
     position: absolute;
     left: 33.87%;
-    right: 96.5%;
     top: 630.56%;
     bottom: 69.01%;  
     background: #8394B8;
@@ -84,7 +81,6 @@
   .img8 {
     position: absolute;
     left: 24.38%;
-    right: 96.13%;
     top: 1800.23%;
     bottom: 50.65%;  
     background: #E4E5E7;

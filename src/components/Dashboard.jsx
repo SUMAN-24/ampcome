@@ -1,4 +1,4 @@
-import { Box, Image, Stack } from "@chakra-ui/react";
+import {  Image } from "@chakra-ui/react";
 import React from "react";
 import styles from "../styles/Dashboard.module.css";
 import img1 from "../media/img1.png";
@@ -12,43 +12,45 @@ import img8 from "../media/Rectangle.png";
 
 const Dashboard = () => {
   return (
-    <Stack className={styles.dashboard_main}>
+    <div className={styles.dashboard_main}>
       {/* sidebar */}
-      <Box className={styles.sidebar}>
-        <Box className={styles.imgs}>
-          <Box className={styles.img1}>
+      <div className={styles.sidebar}>
+        <div className={styles.imgs}>
+          <div className={styles.img1}>
             <Image src={img1} alt="sidebar_icon" />
-            <Box className={styles.img2}>
+            <div className={styles.img2}>
               <Image src={img2} alt="sidebar_line" />
-            </Box>
-          </Box>
+            </div>
+          </div>
 
-          <Box className={styles.img3}>
+          <div className={styles.img3}>
             <Image src={img3} alt="sidebar_icon" />
-          </Box>
+          </div>
 
-          <Box className={styles.img4}>
+          <div className={styles.img4}>
             <Image src={img4} alt="sidebar_icon" />
-          </Box>
+          </div>
 
-          <Box className={styles.img5}>
+          <div className={styles.img5}>
             <Image src={img5} alt="sidebar_icon" />
-          </Box>
+          </div>
 
-          <Box className={styles.img6}>
+          <div className={styles.img6}>
             <Image src={img6} alt="sidebar_icon" />
-          </Box>
+          </div>
 
-          <Box className={styles.img7}>
+          <div className={styles.img7}>
             <Image src={img7} alt="sidebar_icon" />
-          </Box>
+          </div>
 
-          <Box className={styles.img8}>
+          <div className={styles.img8}>
             <Image src={img8} alt="sidebar_icon" />
-          </Box>
-        </Box>
-      </Box>
-    </Stack>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
   );
 };
 
